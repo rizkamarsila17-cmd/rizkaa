@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>Registrasi</title>
+</head>
+<body style="background-color: beige; font-family: sans-serif;">
+
+<h3>Silakan isi formulir di bawah ini!</h3>
+
+<form> <center>
+    <fieldset style="background-color:rgba(94, 174, 41, 0.297); padding: 20px; border-radius: 8px; width: fit-content;">
+        
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" id="nama" name="nama" placeholder="Masukkan nama" required></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>
+                    <input type="radio" id="l" name="jk" value="L" required><label for="l"> L</label>
+                    <input type="radio" id="p" name="jk" value="P"><label for="p"> P</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td><textarea id="alamat" name="alamat" required></textarea></td>
+                
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>
+                    <select id="agama" name="agama" required>
+                        <option value="">-- Pilih Agama --</option>
+                        <option>Islam</option>
+                        <option>Kristen</option>
+                        <option>Hindu</option>
+                        <option>Buddha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir</td>
+                <td><input type="text" id="tempat" name="tempat_lahir" required></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="date" id="tgl" name="tgl_lahir" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr> 
+                <td><label for="pass">Password</label></td>
+                <td><input type="password" id="pass" name="password" required></td>
+            </tr>
+            <tr> 
+                <td><label for="repass">Retype Password</label></td>
+                <td><input type="password" id="repass" name="retype_password" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;"><a href="../노/ver.02.html"></a><input type="submit" value="Kirim"></td>
+            </tr>
+        </table>
+    </fieldset></center>
+</form>
+<center><a href="../노/ver.02.html">Lanjut</a></center>
+</body>
+</html>

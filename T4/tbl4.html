@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas4</title>
+</head>
+<body style="background-color: beige; font-family: sans-serif;">
+
+<h3>Silakan isi formulir di bawah ini!</h3>
+
+<form> <center>
+    <fieldset style="background-color:rgba(94, 174, 41, 0.297); padding: 20px; border-radius: 8px; width: fit-content;">
+        <legend><strong>Form Registrasi</strong></legend>
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" id="nama" name="nama" placeholder="Masukkan nama" required></td>
+            </tr>
+             <tr>
+                <td>Asal Sekolah</td>
+                <td><input type="text" id="nama" name="nama sekolah" placeholder="Masukkan nama sekolah" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" id="l" name="jk" value="L" required><label for="l"> L</label>
+                    <p><input type="radio" id="p" name="jk" value="P"><label for="p"> P</label></p>
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>
+                    <select id="agama" name="agama" required>
+                        <option value="">-- Pilih Agama --</option>
+                        <option>Islam</option>
+                        <option>Kristen</option>
+                        <option>Katholik</option>
+                        <option>Hindu</option>
+                        <option>Buddha</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Nilai</td>
+                <td><input type="nilai"><input type="nilai"><input type="nilai"></td>
+            </tr>
+            <tr>
+                <td>Fakultas Pilihan</td>
+                <td>
+                    <select id="fakultas" name="fakultas" required>
+                    <option value="">-- PILIH --</option>
+                    <option>Fakultas Ilmu Pendidikan</option>
+                    <option>Fakultas Pendidikan Bahasa dan Seni</option>
+                    <option>Fakultas Pendidikan Olahraga dan Kesehatan</option>
+                    <option>Fakultas Pendidikan Teknik dan Jejuruan</option>
+                    <option>Fakultas Pendidikan Matematika dan Ilmu Pengetahuan</option>
+                    <option>Fakultas Pendidikan Ilmu Pengetahuan Sosial</option>
+                    <option>Fakultas Pendidikan Ekonimi dan Bisnis</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Alamat</td>
+                <td><textarea id="alamat" name="alamat" required></textarea></td>
+            </tr>
+            
+            <tr>
+                <td>Tempat Lahir</td>
+                <td><input type="text" id="tempat" name="tempat_lahir" required></td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td><input type="date" id="tgl" name="tgl_lahir" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr> 
+                <td><label for="pass">Password</label></td>
+                <td><input type="password" id="pass" name="password" required></td>
+            </tr>
+            <tr> 
+                <td><label for="repass">Retype Password</label></td>
+                <td><input type="password" id="repass" name="retype_password" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center;"><input type="submit" value="Kirim"></td>
+            </tr>
+        </table>
+    </fieldset></center>
+</form>
+</body>
+
+</html>
